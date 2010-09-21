@@ -67,7 +67,7 @@ function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\[\1$(parse_git_dirty)\]/"
 }
 
-export PS1="$CYAN_BOLD\$(date +'%H:%M')$NOCOLOR @$RED_BOLD\h $GREEN_BOLD\W $GREEN\$(parse_git_branch)$NOCOLOR\$ "
+export PS1="$RED_BOLD\$(date +'%H:%M')$NOCOLOR @$CYAN_BOLD\h $GREEN_BOLD\W $GREEN\$(parse_git_branch)$NOCOLOR\$ "
 
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export LS_COLORS="di=36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:"
