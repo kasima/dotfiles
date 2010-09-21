@@ -1,0 +1,13 @@
+[color]
+    ui = auto
+    diff = auto
+[core]
+    excludesfile = ~/.gitignore
+[branch]
+    autosetuprebase = always
+[alias]
+    co = checkout
+    s = status
+    unadd = "reset HEAD"
+    info = "remote -v"
+    forget = "update-index --assume-unchanged"
