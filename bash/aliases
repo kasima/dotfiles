@@ -2,6 +2,13 @@ case `uname` in
   Linux)
     alias ls='ls --color=auto'
     ;;
+  Darwin)
+    alias logline='cd ~/Sites/loglineapp.com/git/logline;source ~/Sites/loglineapp.com/logline-env/bin/activate'
+    alias smp='cd ~/Sites/sheetmusicplus'
+
+    alias mysqlstart='sudo launchctl load -w /Library/LaunchDaemons/org.macports.mysql5.plist'
+    alias mysqlstop='sudo launchctl unload -w /Library/LaunchDaemons/org.macports.mysql5.plist'
+    ;;
 esac
 alias l='ls -l'
 
