@@ -5,4 +5,4 @@ export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/mysql5/bin:/opt/local/
 
 export PATH=$PATH:~/dev/sbin:/usr/local/mysql/bin
 
-export PATH=$PATH:~/Sites/sheetmusicplus.com/smp/bin
+#export PATH=$PATH:~/Sites/sheetmusicplus.com/smp/bin
