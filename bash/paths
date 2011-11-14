@@ -1,7 +1,9 @@
-export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin
 
 # MacPorts
 export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/mysql5/bin:/opt/local/apache2/bin:$PATH
+
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 export PATH=$PATH:~/dev/sbin:/usr/local/mysql/bin
 
