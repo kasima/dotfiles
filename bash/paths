@@ -1,10 +1,11 @@
 export PATH=/bin:/sbin:/usr/bin:/usr/sbin
 
-# MacPorts
-export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/lib/mysql5/bin:/opt/local/apache2/bin:$PATH
-
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 export PATH=$PATH:~/dev/sbin:/usr/local/mysql/bin
+
+export PATH=$PATH:~/sbin
+
+export PATH=$PATH:./node_modules/.bin
 
 #export PATH=$PATH:~/Sites/sheetmusicplus.com/smp/bin
