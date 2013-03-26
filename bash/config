@@ -18,7 +18,7 @@ GREEN="\[\033[0;32m\]"
 CYAN="\[\033[0;36m\]"
 
 # TITLEBAR="$CYANBOLD\$(date +'%H:%M')$NOCOLOR @$REDBOLD\h $GREENBOLD\W "
-# 
+#
 # function parse_git_branch {
 #   git rev-parse --git-dir &> /dev/null
 #   git_status="$(git status 2> /dev/null)"
@@ -44,13 +44,13 @@ CYAN="\[\033[0;36m\]"
 #     echo "$GREEN[${branch}${remote}${state}$GREEN]"
 #   fi
 # }
-#  
+#
 # function prompt_func() {
 #     previous_return_value=$?;
 #     # prompt="${TITLEBAR}$BLUE[$RED\w$GREEN$(__git_ps1)$YELLOW$(git_dirty_flag)$BLUE]$COLOR_NONE "
-#     
+#
 #     prompt="${TITLEBAR}${GREEN}$(parse_git_branch)"
-#     
+#
 #     if test $previous_return_value -eq 0
 #     then
 #         PS1="${prompt}${NOCOLOR}\$ "

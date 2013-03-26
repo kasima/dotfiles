@@ -8,6 +8,7 @@ case `uname` in
     alias wfx='cd ~/Sites/wellnessfx.com/topaz'
 
     alias skc='cd ~/Sites/steveandkatescamp.com'
+    alias nb='cd ~/Sites/newsbound.com'
 
     alias mysqlstart='sudo launchctl load -w /Library/LaunchDaemons/org.macports.mysql5.plist'
     alias mysqlstop='sudo launchctl unload -w /Library/LaunchDaemons/org.macports.mysql5.plist'
