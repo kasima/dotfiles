@@ -162,7 +162,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 2
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain KeyRepeat -int 0.1
 
 # Automatically illuminate built-in MacBook keyboard in low light
 defaults write com.apple.BezelServices kDim -bool true
@@ -472,13 +472,13 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 ###############################################################################
 
 # Only use UTF-8 in Terminal.app
-defaults write com.apple.terminal StringEncodings -array 4
+# defaults write com.apple.terminal StringEncodings -array 4
 
-# Use a modified version of the Pro theme by default in Terminal.app
-open "$HOME/init/Mathias.terminal"
-sleep 1 # Wait a bit to make sure the theme is loaded
-defaults write com.apple.terminal "Default Window Settings" -string "Mathias"
-defaults write com.apple.terminal "Startup Window Settings" -string "Mathias"
+# # Use a modified version of the Pro theme by default in Terminal.app
+# open "$HOME/init/Mathias.terminal"
+# sleep 1 # Wait a bit to make sure the theme is loaded
+# defaults write com.apple.terminal "Default Window Settings" -string "Mathias"
+# defaults write com.apple.terminal "Startup Window Settings" -string "Mathias"
 
 # Enable “focus follows mouse” for Terminal.app and all X11 apps
 # i.e. hover over a window and start typing in it without clicking first

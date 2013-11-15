@@ -2,10 +2,8 @@ export PATH=/bin:/sbin:/usr/bin:/usr/sbin
 
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-export PATH=$PATH:~/dev/sbin:/usr/local/mysql/bin
+export PATH=$PATH:~/dev/sbin
 
 export PATH=$PATH:~/sbin
 
 export PATH=$PATH:./node_modules/.bin
-
-#export PATH=$PATH:~/Sites/sheetmusicplus.com/smp/bin
