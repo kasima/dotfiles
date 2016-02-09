@@ -15,6 +15,16 @@ case `uname` in
     alias top='/usr/bin/top -ocpu -R -F -s 1 -n30'
     ;;
 esac
-alias l='ls -l'
-alias be='bundle exec'
+
 alias scpresume='rsync --partial --progress -rsh=ssh'
+alias l='ls -l'
+
+alias reload='source ~/.bash_profile'
+
+# git
+alias gpu='git push -u origin'
+
+# skcamp
+alias man='cd ~/skcamp/mancala'
+alias be='bundle exec'
+alias t='be rspec'
