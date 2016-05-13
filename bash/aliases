@@ -3,13 +3,6 @@ case `uname` in
     alias ls='ls --color=auto'
     ;;
   Darwin)
-    alias logline='cd ~/Sites/loglineapp.com/git/logline;source ~/Sites/loglineapp.com/logline-env/bin/activate'
-    alias smp='cd ~/Sites/sheetmusicplus'
-    alias wfx='cd ~/Sites/wellnessfx.com/topaz'
-
-    alias skc='cd ~/Sites/steveandkatescamp.com'
-    alias nb='cd ~/Sites/newsbound.com'
-
     alias mysqlstart='sudo launchctl load -w /Library/LaunchDaemons/org.macports.mysql5.plist'
     alias mysqlstop='sudo launchctl unload -w /Library/LaunchDaemons/org.macports.mysql5.plist'
     alias top='/usr/bin/top -ocpu -R -F -s 1 -n30'
@@ -18,13 +11,19 @@ esac
 
 alias scpresume='rsync --partial --progress -rsh=ssh'
 alias l='ls -l'
+alias less='less -R'
 
 alias reload='source ~/.bash_profile'
 
 # git
 alias gpu='git push -u origin'
 
+# heroku
+alias h='heroku'
+
 # skcamp
-alias man='cd ~/skcamp/mancala'
+alias manc='cd ~/skcamp/mancala'
+alias mono='cd ~/skcamp/monopoly'
+alias stra='cd ~/skcamp/stratego'
 alias be='bundle exec'
 alias t='be rspec'
