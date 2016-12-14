@@ -22,8 +22,8 @@ alias gpu='git push -u origin'
 alias h='heroku'
 
 # skcamp
-alias manc='cd ~/skcamp/mancala'
-alias mono='cd ~/skcamp/monopoly'
-alias stra='cd ~/skcamp/stratego'
+alias manc='cd ~/steveandkate/mancala'
+alias mono='cd ~/steveandkate/monopoly'
+alias stra='cd ~/steveandkate/stratego'
 alias be='bundle exec'
 alias t='be rspec'
