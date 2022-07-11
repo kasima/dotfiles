@@ -6,6 +6,8 @@ case `uname` in
     alias mysqlstart='sudo launchctl load -w /Library/LaunchDaemons/org.macports.mysql5.plist'
     alias mysqlstop='sudo launchctl unload -w /Library/LaunchDaemons/org.macports.mysql5.plist'
     alias top='/usr/bin/top -ocpu -R -F -s 1 -n30'
+
+    alias sleepless="pmset -g assertions | egrep '(PreventUserIdleSystemSleep|PreventUserIdleDisplaySleep)'"
     ;;
 esac
 
