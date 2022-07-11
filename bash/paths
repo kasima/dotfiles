@@ -1,4 +1,4 @@
-export PATH=/bin:/sbin:/usr/bin:/usr/sbin
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:$PATH
 
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
@@ -6,4 +6,7 @@ export PATH=$PATH:~/dev/sbin
 
 export PATH=$PATH:~/sbin
 
-export PATH=$PATH:./node_modules/.bin
+# export PATH=$PATH:./node_modules/.bin
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

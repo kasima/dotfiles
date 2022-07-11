@@ -10,4 +10,5 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
 
-[[ -s "/Users/kasima/.rvm/scripts/rvm" ]] && source "/Users/kasima/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# GPG setup
+export GPG_TTY=$(tty)
